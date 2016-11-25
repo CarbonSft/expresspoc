@@ -1,0 +1,77 @@
+{
+	"Questions": [{
+		"$type": "OnlineForms.ListItems.MultiChooseQuestion, OnlineForms",
+		"MultipleAnswersEnabled": true,
+		"PossibleAnswers": [{
+			"AnswerText": "Single",
+			
+		},
+		{
+			"AnswerText": "Married filing joint return",
+			
+		},
+		{
+			"AnswerText": "Married filing separate return",
+			
+		},
+		{
+			"AnswerText": "Head of Household",
+			
+		},
+		{
+			"AnswerText": "Qualifying widow(er)",
+			
+		}],
+		"QuestionText": "What filing status will you use on your 2016 Income Tax Return?",
+		"ValidationError": "You need to answer.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
+		"ValidationRegex": {
+			"Pattern": "(?s).*"
+		}
+	},
+	{
+		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
+		"QuestionText": "What is your first name",
+		"ValidationError": "Your first name should be 1-5 characters long.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
+		"ValidationRegex": {
+			"Pattern": "\\b\\w{1,10}\\b"
+		}
+	},
+	{
+		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
+		"QuestionText": "What is your phone number",
+		"ValidationError": "Phone number is incorrect.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/phone_mark.png",
+		"ValidationRegex": {
+			"Pattern": "^(?:(?:\\+?1\\s*(?:[.-]\\s*)?)?(?:\\(\\s*([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9])\\s*\\)|([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]))\\s*(?:[.-]\\s*)?)?([2-9]1[02-9]|[2-9][02-9]1|[2-9][02-9]{2})\\s*(?:[.-]\\s*)?([0-9]{4})(?:\\s*(?:#|x\\.?|ext\\.?|extension)\\s*(\\d+))?$"
+		}
+	},
+	{
+		"$type": "OnlineForms.ListItems.DateQuestion, OnlineForms",
+		"QuestionText": "When were you born?",
+		"ValidationError": "Date is not valid or you are too young.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/when_mark.png",
+		"ValidationRegex": {
+			"Pattern": "^(191[7689]-)|^(19[23456789]\\d-)|^(2000-)|^(200[0123]-)"
+		}
+	},
+	{
+		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
+		"QuestionText": "Where were you born?",
+		"ValidationError": "Place is not valid.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/where_mark.png",
+		"ValidationRegex": {
+			"Pattern": "(?s).*"
+		}
+	},
+	{
+		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
+		"QuestionText": "What is your dog name?",
+		"ValidationError": "Your dog's name is not valid.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
+		"ValidationRegex": {
+			"Pattern": "(?s).*"
+		}
+	}]
+}
