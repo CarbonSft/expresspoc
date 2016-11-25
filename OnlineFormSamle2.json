@@ -1,11 +1,9 @@
 {
 	"Questions": [{
 		"$type": "OnlineForms.ListItems.MultiChooseQuestion, OnlineForms",
-		"MultipleAnswersEnabled": true,
-		"PossibleAnswers": [{
-			"AnswerText": "Single",
-			
-		},
+		"MultipleAnswersEnabled": false,
+		"PossibleAnswers": [
+		{			"AnswerText": "Single",					},
 		{			"AnswerText": "Married filing joint return",		},
 		{			"AnswerText": "Married filing separate return",		},
 		{			"AnswerText": "Head of Household",			},
