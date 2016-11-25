@@ -12,7 +12,7 @@
 		"ValidationError": "You need to answer.",
 		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
 		"ValidationRegex": {
-			"Pattern": "^\\\\*[^\\\\]*\\\\*$"
+			"Pattern": "^\\\\*[^\\\\]+\\\\*$"
 		}
 	},
 	{
