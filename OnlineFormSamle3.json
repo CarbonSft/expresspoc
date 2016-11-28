@@ -15,7 +15,7 @@
 		"ValidationError": "Phone number is incorrect.",
 		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/phone_mark.png",
 		"ValidationRegex": {
-			"Pattern": "^(?:(?:\\+?1\\s*(?:[.-]\\s*)?)?(?:\\(\\s*([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9])\\s*\\)|([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]))\\s*(?:[.-]\\s*)?)?([2-9]1[02-9]|[2-9][02-9]1|[2-9][02-9]{2})\\s*(?:[.-]\\s*)?([0-9]{4})(?:\\s*(?:#|x\\.?|ext\\.?|extension)\\s*(\\d+))?$"
+			"Pattern": "^\\d{1,9}$"
 		}
 	},
 	{
