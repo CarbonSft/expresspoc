@@ -21,7 +21,7 @@
 		"ValidationError": "You must pick an answer.",
 		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
 		"ValidationRegex": {
-			"Pattern": "\w+"
+			"Pattern": "\\w+"
 		}
 	},
 	{
