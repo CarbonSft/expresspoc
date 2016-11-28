@@ -25,7 +25,7 @@
 		}
 	},
 	{
-		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
+		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
 		"QuestionText": "What is your first name",
 		"ValidationError": "Your first name should be 1-5 characters long.",
 		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
