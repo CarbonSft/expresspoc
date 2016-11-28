@@ -1,9 +1,9 @@
 {
 	"Questions": [{
 		"$type": "OnlineForms.ListItems.MultiChooseQuestion, OnlineForms",
-		"MultipleAnswersEnabled": false,
+		"MultipleAnswersEnabled": true,
 		"PossibleAnswers": [
-		{			"AnswerText": "Single",					},
+		{			"AnswerText": "Batman",					},
 		{			"AnswerText": "Married filing joint return",		},
 		{			"AnswerText": "Married filing separate return",		},
 		{			"AnswerText": "Head of Household",			},
@@ -13,6 +13,15 @@
 		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
 		"ValidationRegex": {
 			"Pattern": "^\\\\*[^\\\\]+\\\\*$"
+		}
+	},
+		      	{
+		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
+		"QuestionText": "Are you at home now?",
+		"ValidationError": "You must pick an answer.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
+		"ValidationRegex": {
+			"Pattern": "\\w+"
 		}
 	},
 	{
