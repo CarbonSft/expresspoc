@@ -3,7 +3,6 @@
 		"$type": "OnlineForms.ListItems.MultiChooseQuestion, OnlineForms",
 		"MultipleAnswersEnabled": false,
 		"PossibleAnswers": [
-		{			"AnswerText": "Batman",					},
 		{			"AnswerText": "Single",					},
 		{			"AnswerText": "Married filing joint return",		},
 		{			"AnswerText": "Married filing separate return",		},
