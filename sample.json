@@ -1,6 +1,15 @@
 {
 	"Questions": [
 	{
+		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
+		"QuestionText": "Can someone else claim you as a dependent on his or her tax return?",
+		"ValidationError": "You must pick an answer.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
+		"ValidationRegex": {
+			"Pattern": "\\w+"
+		}
+	},		
+	{
 		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
 		"QuestionText": "1 How many dependents (other than yourself and your spouse ) you will claim on your tax return?",
 		"ValidationError": "Number is incorrect.",
