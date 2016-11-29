@@ -1,0 +1,30 @@
+{
+	"Questions": [
+	{
+		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
+		"QuestionText": "1 How many dependents (other than yourself and your spouse ) you will claim on your tax return?",
+		"ValidationError": "Number is incorrect.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
+		"ValidationRegex": {
+			"Pattern": "^\\d{1,2}$"
+		}
+	},
+  {
+		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
+		"QuestionText": "2 How many dependents (other than yourself and your spouse ) you will claim on your tax return?",
+		"ValidationError": "Number is incorrect.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
+		"ValidationRegex": {
+			"Pattern": "^\\d{1,2}$"
+		}
+	},
+  {
+		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
+		"QuestionText": "3 How many dependents (other than yourself and your spouse ) you will claim on your tax return?",
+		"ValidationError": "Number is incorrect.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
+		"ValidationRegex": {
+			"Pattern": "^\\d{1,2}$"
+		}
+	}]
+}
