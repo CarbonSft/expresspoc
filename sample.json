@@ -15,5 +15,24 @@
 		"ValidationRegex": {
 			"Pattern": "^\\\\*[^\\\\]+\\\\*$"
 		}
-	}]
+	},
+	{
+		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
+		"QuestionText": "Are you at home now?",
+		"ValidationError": "You must pick an answer.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
+		"ValidationRegex": {
+			"Pattern": "\\w+"
+		}
+	},
+	{
+		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
+		"QuestionText": "Can someone else claim you as a dependent on his or her tax return?",
+		"ValidationError": "You must pick an answer.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
+		"ValidationRegex": {
+			"Pattern": "\\w+"
+		}
+	},
+	]
 }
