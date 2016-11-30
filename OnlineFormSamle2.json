@@ -34,6 +34,15 @@
 		}
 	},
 	{
+		"$type": "OnlineForms.ListItems.DateQuestion, OnlineForms",
+		"QuestionText": "When were you born?",
+		"ValidationError": "Date is not valid or you are too young.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/when_mark.png",
+		"ValidationRegex": {
+			"Pattern": "^(191[7689]-)|^(19[23456789]\\d-)|^(2000-)|^(200[0123]-)"
+		}
+	},
+	{
 		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
 		"QuestionText": " How many dependents (other than yourself and your spouse ) you will claim on your tax return?",
 		"ValidationError": "Number is incorrect.",
