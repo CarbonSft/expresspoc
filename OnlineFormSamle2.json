@@ -2,33 +2,24 @@
 	"Questions": [{
 		"$type": "OnlineForms.ListItems.MultiChooseQuestion, OnlineForms",
 		"MultipleAnswersEnabled": false,
-		"PossibleAnswers": [
-		{			"AnswerText": "Single",					},
-		{			"AnswerText": "Married filing joint return",		},
-		{			"AnswerText": "Married filing separate return",		},
-		{			"AnswerText": "Head of Household",			},
-		{			"AnswerText": "Qualifying widow(er)",			}],
+		"PossibleAnswers": 
+		[
+			{"AnswerText": "Single",},
+			{"AnswerText": "Married filing joint return",},
+			{"AnswerText": "Married filing separate return",},
+			{"AnswerText": "Head of Household",},
+			{"AnswerText": "Qualifying widow(er)",}
+		],
 		"QuestionText": "What filing status will you use on your 2016 Income Tax Return?",
-		"ValidationError": "You need to answer.",
-		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
-		"ValidationRegex": {
-			"Pattern": "^\\\\*[^\\\\]+\\\\*$"
-		}
 	},
 	{
 		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
 		"QuestionText": "Can someone else claim you as a dependent on his or her tax return?",
-		"ValidationError": "You must pick an answer.",
-		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
-		"ValidationRegex": {
-			"Pattern": "\\w+"
-		}
 	},
 	{
 		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
 		"QuestionText": " How many dependents (other than yourself and your spouse ) you will claim on your tax return?",
 		"ValidationError": "Number is incorrect.",
-		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
 		"ValidationRegex": {
 			"Pattern": "^\\d{1,2}$"
 		}
@@ -36,28 +27,13 @@
 	{
 		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
 		"QuestionText": "Are you going to file as head of household?",
-		"ValidationError": "You must pick an answer.",
-		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
-		"ValidationRegex": {
-			"Pattern": "\\w+"
-		}
 	},
 	{
 		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
 		"QuestionText": "Do you spend more than $2000 on child care?",
-		"ValidationError": "You must pick an answer.",
-		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
-		"ValidationRegex": {
-			"Pattern": "\\w+"
-		}
 	},
 	{
 		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
 		"QuestionText": " Did you have to pay any taxes last year and will you have to pay any taxes this year?",
-		"ValidationError": "You must pick an answer.",
-		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
-		"ValidationRegex": {
-			"Pattern": "\\w+"
-		}
 	}]
 }
