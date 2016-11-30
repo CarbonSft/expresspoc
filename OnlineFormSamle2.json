@@ -1,7 +1,7 @@
 {
 	"Questions": [{
 		"$type": "OnlineForms.ListItems.MultiChooseQuestion, OnlineForms",
-		"MultipleAnswersEnabled": true,
+		"MultipleAnswersEnabled": false,
 		"PossibleAnswers": [
 		{			"AnswerText": "Single",					},
 		{			"AnswerText": "Married filing joint return",		},
