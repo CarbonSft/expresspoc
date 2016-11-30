@@ -15,23 +15,5 @@
 		"ValidationRegex": {
 			"Pattern": "^\\\\*[^\\\\]+\\\\*$"
 		}
-	},
-	{
-		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
-		"QuestionText": "Can you?",
-		"ValidationError": "You must pick an answer.",
-		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
-		"ValidationRegex": {
-			"Pattern": "\\w+"
-		}
-	},		
-	{
-		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
-		"QuestionText": "1 How many dependents (other than yourself and your spouse ) you will claim on your tax return?",
-		"ValidationError": "Number is incorrect.",
-		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
-		"ValidationRegex": {
-			"Pattern": "^\\d{1,2}$"
-		}
 	}]
 }
