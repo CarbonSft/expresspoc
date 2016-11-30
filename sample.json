@@ -1,38 +1,40 @@
 {
 	"Questions": [
 	{
-		"$type": "OnlineForms.ListItems.MultiChooseQuestion, OnlineForms",
-		"MultipleAnswersEnabled": true,
-		"PossibleAnswers": [
-		{			"AnswerText": "Batman",					},
-		{			"AnswerText": "Married filing joint return",		},
-		{			"AnswerText": "Married filing separate return",		},
-		{			"AnswerText": "Head of Household",			},
-		{			"AnswerText": "Qualifying widow(er)",			}],
-		"QuestionText": "What filing status will you use on your 2016 Income Tax Return?",
-		"ValidationError": "You need to answer.",
+		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
+		"QuestionText": "What is your first name",
+		"ValidationError": "Your first name should be 1-5 characters long.",
 		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
 		"ValidationRegex": {
-			"Pattern": "^\\\\*[^\\\\]+\\\\*$"
+			"Pattern": "\\b\\w{1,10}\\b"
+		}
+	},		      
+	{
+		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
+		"QuestionText": "What is your phone number",
+		"ValidationError": "Phone number is incorrect.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/phone_mark.png",
+		"ValidationRegex": {
+			"Pattern": "^\\d{1,9}$"
 		}
 	},
 	{
-		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
-		"QuestionText": "Are you at home now?",
-		"ValidationError": "You must pick an answer.",
-		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
+		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
+		"QuestionText": "Where were you born?",
+		"ValidationError": "Place is not valid.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/where_mark.png",
 		"ValidationRegex": {
-			"Pattern": "\\w+"
+			"Pattern": "(?s).*"
 		}
 	},
 	{
-		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
-		"QuestionText": "Can someone else claim you as a dependent on his or her tax return?",
-		"ValidationError": "You must pick an answer.",
+		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
+		"QuestionText": "What is your dog's name?",
+		"ValidationError": "Your dog's name is not valid.",
 		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
 		"ValidationRegex": {
-			"Pattern": "\\w+"
+			"Pattern": "(?s).*"
 		}
-	},
-	]
+	}
+  ]
 }
