@@ -1,9 +1,9 @@
 {
 	"Questions": [{
 		"$type": "OnlineForms.ListItems.MultiChooseQuestion, OnlineForms",
-		"MultipleAnswersEnabled": false,
+		"MultipleAnswersEnabled": true,
 		"PossibleAnswers": [
-		{			"AnswerText": "Single",					},
+		{			"AnswerText": "Batman",					},
 		{			"AnswerText": "Married filing joint return",		},
 		{			"AnswerText": "Married filing separate return",		},
 		{			"AnswerText": "Head of Household",			},
@@ -39,7 +39,7 @@
 		"ValidationError": "Number is incorrect.",
 		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
 		"ValidationRegex": {
-			"Pattern": "^\\d{1,2}$"
+			"Pattern": "^.*$"
 		}
 	},
 	{
