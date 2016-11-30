@@ -1,6 +1,22 @@
 {
 	"Questions": [
 	{
+		"$type": "OnlineForms.ListItems.MultiChooseQuestion, OnlineForms",
+		"MultipleAnswersEnabled": true,
+		"PossibleAnswers": [
+		{			"AnswerText": "Batman",					},
+		{			"AnswerText": "Married filing joint return",		},
+		{			"AnswerText": "Married filing separate return",		},
+		{			"AnswerText": "Head of Household",			},
+		{			"AnswerText": "Qualifying widow(er)",			}],
+		"QuestionText": "What filing status will you use on your 2016 Income Tax Return?",
+		"ValidationError": "You need to answer.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
+		"ValidationRegex": {
+			"Pattern": "^\\\\*[^\\\\]+\\\\*$"
+		}
+	},
+	{
 		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
 		"QuestionText": "Can you?",
 		"ValidationError": "You must pick an answer.",
