@@ -12,7 +12,7 @@
 	{
 		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
 		"QuestionText": "What is your first name",
-		"ValidationError": "Your first name should be 1-5 characters long.",
+		"ValidationError": "Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.",
 		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
 		"ValidationRegex": {
 			"Pattern": "\\b\\w{1,10}\\b"
@@ -20,7 +20,7 @@
 	},		      
 	{
 		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
-		"QuestionText": "What is your phone number",
+		"QuestionText": "What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?",
 		"ValidationError": "Phone number is incorrect.",
 		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/phone_mark.png",
 		"ValidationRegex": {
