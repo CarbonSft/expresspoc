@@ -47,8 +47,16 @@
 	},
 	{
 		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
-		"QuestionText": " How many dependents (other than yourself and your spouse ) you will claim on your tax return?",
+		"QuestionText": " How many dependents (other than yourself and your spouse ) you will claim on your tax return? How many dependents (other than yourself and your spouse ) you will claim on your tax return? How many dependents (other than yourself and your spouse ) you will claim on your tax return? How many dependents (other than yourself and your spouse ) you will claim on your tax return? How many dependents (other than yourself and your spouse ) you will claim on your tax return?",
 		"ValidationError": "Number is incorrect.",
+		"ValidationRegex": {
+			"Pattern": "^\\d{1,2}$"
+		}
+	},
+	{
+		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
+		"QuestionText": " How many dependents (other than yourself and your spouse ) you will claim on your tax return?",
+		"ValidationError": "Number is incorrect. Number is incorrect. Number is incorrect. Number is incorrect. Number is incorrect. Number is incorrect. Number is incorrect. Number is incorrect. Number is incorrect.Number is incorrect. Number is incorrect. Number is incorrect.",
 		"ValidationRegex": {
 			"Pattern": "^\\d{1,2}$"
 		}
