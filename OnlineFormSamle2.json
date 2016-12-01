@@ -13,6 +13,35 @@
 		"QuestionText": "What filing status will you use on your 2016 Income Tax Return? What filing status will you use on your 2016 Income Tax Return? What filing status will you use on your 2016 Income Tax Return?",
 	},
 	{
+		"$type": "OnlineForms.ListItems.MultiChooseQuestion, OnlineForms",
+		"MultipleAnswersEnabled": false,
+		"PossibleAnswers": 
+		[
+			{"AnswerText": "Single",},
+			{"AnswerText": "Married filing joint return",},
+			{"AnswerText": "Married filing separate return",},
+			{"AnswerText": "Head of Household",},
+			{"AnswerText": "Qualifying widow(er)",},
+			{"AnswerText": "Single",},
+			{"AnswerText": "Married filing joint return",},
+			{"AnswerText": "Married filing separate return",},
+			{"AnswerText": "Head of Household",},
+			{"AnswerText": "Qualifying widow(er)",}
+		],
+		"QuestionText": "What filing status will you use on your 2016 Income Tax Return?",
+	},
+	{
+		"$type": "OnlineForms.ListItems.MultiChooseQuestion, OnlineForms",
+		"MultipleAnswersEnabled": false,
+		"PossibleAnswers": 
+		[
+			{"AnswerText": "Single",},
+			{"AnswerText": "Married filing joint return",},
+			{"AnswerText": "Married filing separate return",},
+		],
+		"QuestionText": "What filing status will you use on your 2016 Income Tax Return?",
+	},
+	{
 		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
 		"QuestionText": "Can someone else claim you as a dependent on his or her tax return?",
 	},
