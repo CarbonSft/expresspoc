@@ -1,6 +1,15 @@
 {
 	"Questions": [
 	{
+		"$type": "OnlineForms.ListItems.DateQuestion, OnlineForms",
+		"QuestionText": "When were you born?",
+		"ValidationError": "Date is not valid or you are too young.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/when_mark.png",
+		"ValidationRegex": {
+			"Pattern": "^(191[7689]-)|^(19[23456789]\\d-)|^(2000-)|^(200[0123]-)"
+		}
+	},
+	{
 		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
 		"QuestionText": "What is your first name",
 		"ValidationError": "Your first name should be 1-5 characters long.",
