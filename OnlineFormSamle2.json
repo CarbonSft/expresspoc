@@ -11,10 +11,7 @@
 			{"AnswerText": "Head of Household",},
 			{"AnswerText": "Qualifying widow(er)",}
 		],
-		"ExistingAnswers": 
-		[
-			{"AnswerText": "Married filing separate return",},
-		],
+
 		"DefaultAnswers": 
 		[
 			{"AnswerText": "Qualifying widow(er)",}
