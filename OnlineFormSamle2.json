@@ -11,6 +11,14 @@
 			{"AnswerText": "Head of Household",},
 			{"AnswerText": "Qualifying widow(er)",}
 		],
+		"ExistingAnswers": 
+		[
+			{"AnswerText": "Married filing separate return",},
+		],
+		"DefaultAnswers": 
+		[
+			{"AnswerText": "Qualifying widow(er)",}
+		],
 		"QuestionText": "What filing status will you use on your 2016 Income Tax Return? What filing status will you use on your 2016 Income Tax Return? What filing status will you use on your 2016 Income Tax Return?",
 	},
 	{
