@@ -13,35 +13,6 @@
 		"QuestionText": "What filing status will you use on your 2016 Income Tax Return? What filing status will you use on your 2016 Income Tax Return? What filing status will you use on your 2016 Income Tax Return?",
 	},
 	{
-		"$type": "OnlineForms.ListItems.MultiChooseQuestion, OnlineForms",
-		"MultipleAnswersEnabled": false,
-		"PossibleAnswers": 
-		[
-			{"AnswerText": "Single",},
-			{"AnswerText": "Married filing joint return",},
-			{"AnswerText": "Married filing separate return",},
-			{"AnswerText": "Head of Household",},
-			{"AnswerText": "Qualifying widow(er)",},
-			{"AnswerText": "Single",},
-			{"AnswerText": "Married filing joint return",},
-			{"AnswerText": "Married filing separate return",},
-			{"AnswerText": "Head of Household",},
-			{"AnswerText": "Qualifying widow(er)",}
-		],
-		"QuestionText": "What filing status will you use on your 2016 Income Tax Return?",
-	},
-	{
-		"$type": "OnlineForms.ListItems.MultiChooseQuestion, OnlineForms",
-		"MultipleAnswersEnabled": false,
-		"PossibleAnswers": 
-		[
-			{"AnswerText": "Single",},
-			{"AnswerText": "Married filing joint return",},
-			{"AnswerText": "Married filing separate return",},
-		],
-		"QuestionText": "What filing status will you use on your 2016 Income Tax Return?",
-	},
-	{
 		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
 		"QuestionText": "Can someone else claim you as a dependent on his or her tax return?",
 	},
@@ -54,14 +25,6 @@
 		}
 	},
 	{
-		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
-		"QuestionText": " How many dependents (other than yourself and your spouse ) you will claim on your tax return?",
-		"ValidationError": "Number is incorrect. Number is incorrect. Number is incorrect. Number is incorrect. Number is incorrect. Number is incorrect. Number is incorrect. Number is incorrect. Number is incorrect.Number is incorrect. Number is incorrect. Number is incorrect.",
-		"ValidationRegex": {
-			"Pattern": "^\\d{1,2}$"
-		}
-	},
-	{
 		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
 		"QuestionText": "Are you going to file as head of household?",
 	},
@@ -69,8 +32,5 @@
 		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
 		"QuestionText": "Do you spend more than $2000 on child care?",
 	},
-	{
-		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
-		"QuestionText": " Did you have to pay any taxes last year and will you have to pay any taxes this year?",
-	}]
+	]
 }
