@@ -1,6 +1,7 @@
 {
 	"Questions": [{
 		"$type": "OnlineForms.ListItems.MultiChooseQuestion, OnlineForms",
+		"QuestionId": "question1",
 		"MultipleAnswersEnabled": false,
 		"PossibleAnswers": 
 		[
@@ -14,10 +15,12 @@
 	},
 	{
 		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
+		"QuestionId": "31212312143123",
 		"QuestionText": "Can someone else claim you as a dependent on his or her tax return?",
 	},
 	{
 		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
+		"QuestionId": "AQ1234",
 		"QuestionText": " How many dependents (other than yourself and your spouse ) you will claim on your tax return? How many dependents (other than yourself and your spouse ) you will claim on your tax return? How many dependents (other than yourself and your spouse ) you will claim on your tax return? How many dependents (other than yourself and your spouse ) you will claim on your tax return? How many dependents (other than yourself and your spouse ) you will claim on your tax return?",
 		"ValidationError": "Number is incorrect.",
 		"ValidationRegex": {
@@ -26,11 +29,22 @@
 	},
 	{
 		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
+		"QuestionId": "Q1abc",
 		"QuestionText": "Are you going to file as head of household?",
 	},
 	{
 		"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
 		"QuestionText": "Do you spend more than $2000 on child care?",
+	},
+	{
+		"$type": "OnlineForms.ListItems.DateQuestion, OnlineForms",
+		"QuestionId": "question1#AAFFCC",
+		"QuestionText": "When were you born?",
+		"ValidationError": "Date is not valid or you are too young.",
+		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/when_mark.png",
+		"ValidationRegex": {
+			"Pattern": "^(191[7689]-)|^(19[23456789]\\d-)|^(2000-)|^(200[0123]-)"
+		}
 	},
 	]
 }
