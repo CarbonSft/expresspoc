@@ -1,49 +1,11 @@
 {
-	"Questions": [
-	{
-		"$type": "OnlineForms.ListItems.DateQuestion, OnlineForms",
-		"QuestionText": "When were you born?",
-		"ValidationError": "Date is not valid or you are too young.",
-		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/when_mark.png",
-		"ValidationRegex": {
-			"Pattern": "^(191[7689]-)|^(19[23456789]\\d-)|^(2000-)|^(200[0123]-)"
+	"Questions": 
+	[
+		{
+			"$type": "OnlineForms.ListItems.SignatureQuestion, OnlineForms",
+			"QuestionText": "Give me your signature. Satan",
+			"ValidationError": "Ohh really?",
+			"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/when_mark.png",
 		}
-	},
-	{
-		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
-		"QuestionText": "What is your first name",
-		"ValidationError": "Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.Your first name should be 1-5 characters long.",
-		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
-		"ValidationRegex": {
-			"Pattern": "\\b\\w{1,10}\\b"
-		}
-	},		      
-	{
-		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
-		"QuestionText": "What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?What is your phone number?",
-		"ValidationError": "Phone number is incorrect.",
-		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/phone_mark.png",
-		"ValidationRegex": {
-			"Pattern": "^\\d{1,9}$"
-		}
-	},
-	{
-		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
-		"QuestionText": "Where were you born?",
-		"ValidationError": "Place is not valid.",
-		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/where_mark.png",
-		"ValidationRegex": {
-			"Pattern": "(?s).*"
-		}
-	},
-	{
-		"$type": "OnlineForms.ListItems.TextQuestion, OnlineForms",
-		"QuestionText": "What is your dog's name?",
-		"ValidationError": "Your dog's name is not valid.",
-		"ImageUrl": "https://raw.githubusercontent.com/CarbonSft/expresspoc/master/questionmark.png",
-		"ValidationRegex": {
-			"Pattern": "(?s).*"
-		}
-	}
-  ]
+  	]
 }
