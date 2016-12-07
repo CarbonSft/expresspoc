@@ -1,6 +1,11 @@
 {
 	"Questions": 
 	[
+		{
+		"$type": "OnlineForms.ListItems.SignatureQuestion, OnlineForms",
+		"QuestionId": "question1",
+		"QuestionText": "Signature",
+		},
 		
 		{
 		"$type": "OnlineForms.ListItems.MultiChooseQuestion, OnlineForms",
@@ -20,7 +25,7 @@
 			{"AnswerText": "Qualifying widow(er)",}
 		],
 		"QuestionText": "What filing status will you use on your 2016 Income Tax Return?",
-	},
-
+		},
+	
   	]
 }
