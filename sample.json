@@ -7,12 +7,7 @@
 			"QuestionText": "Can someone else claim you as a dependent on his or her tax return?",
 
 		},
-		
-		{
-			"$type": "OnlineForms.ListItems.SignatureQuestion, OnlineForms",
-			"QuestionId": "question1",
-			"QuestionText": "Signature",
-		},
+
 		
 		{
 			"$type": "OnlineForms.ListItems.MultiChooseQuestion, OnlineForms",
