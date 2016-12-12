@@ -10,7 +10,10 @@
 			"$type": "OnlineForms.ListItems.YesNoQuestion, OnlineForms",
 			"QuestionId": "31212312143123",
 			"QuestionText": "Can someone else claim you as a dependent on his or her tax return?",
-
+			"DefaultAnswers": 
+			[
+				{"AnswerText": false,}
+			],
 		},
 
 		
