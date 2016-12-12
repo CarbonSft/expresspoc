@@ -12,7 +12,7 @@
 			"QuestionText": "Can someone else claim you as a dependent on his or her tax return?",
 			"DefaultAnswers": 
 			[
-				{"AnswerText": "No",}
+				{"AnswerText": false,}
 			],
 		},
 
